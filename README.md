@@ -1,2 +1,8 @@
-# composer_on-click_install
-用shell脚本一键式安装composer, 在linux环境
+# 这是一个一键式在linuxsha安装上composer的shell脚本
+
+#需要的环境
+- 已经安装了php, 并且php已经加入环境变量
+
+#使用方式?
+- clone本项目, 然后直接运行 ./composer_install.sh 脚本, 静候其安装完成
+- 安装时会提示是否要设置阿里云镜像, 输入y表示同意设置. 在中国墙裂建议使用, 否则你享有乌龟般的下载速度
